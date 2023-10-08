@@ -3,13 +3,14 @@ import NavBar from './components/NavBar';
 import Main from './components/Main';
 import Cards from './components/Cards'
 import './App.css';
-import image1 from "./image1.png";
-import wedding from "./wedding.png";
-import mountain from "./mountain.png";
-import guitar from './guitar.png';
-import sing from './sing.png';
-import dance from './dance.png';
-import swim from './swim.png';
+import image1 from "./images/image1.png";
+import wedding from "./images/wedding.png";
+import mountain from "./images/mountain.png";
+import guitar from './images/guitar.png';
+import sing from './images/sing.png';
+import dance from './images/dance.png';
+import swim from './images/swim.png';
+
 
 function App() {
   return (
