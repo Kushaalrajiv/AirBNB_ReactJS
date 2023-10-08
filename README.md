@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# AirBNB using ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![AirBNB Image](public/website.png)
+
+This react project focuses more on usage of 'props'
 
 ## Available Scripts
 
