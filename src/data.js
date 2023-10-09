@@ -6,6 +6,7 @@ export default [
         reviews:6,
         price:'137',
         country:"Israel",
+        openSpots: 0,
     },
     {
         img: 'https://github.com/Kushaalrajiv/AirBNB_ReactJS/blob/master/src/images/mountain.png?raw=true',
@@ -13,7 +14,8 @@ export default [
         lesson:"Learn Wedding Photography",
         reviews:2,
         price:'112',
-        country:"Bali"
+        country:"Bali",
+        openSpots: 0,
     },
     {
         img:'https://github.com/Kushaalrajiv/AirBNB_ReactJS/blob/master/src/images/wedding.png?raw=true',
@@ -22,6 +24,7 @@ export default [
         reviews:2,
         price:'149',
         country:"Vietnam",
+        openSpots: 8,
     },
     {
         img: 'https://github.com/Kushaalrajiv/AirBNB_ReactJS/blob/master/src/images/guitar.png?raw=true',
@@ -29,7 +32,8 @@ export default [
         lesson:"Guitar Lessons",
         reviews:7,
         price:'130',
-        country:"USA"
+        country:"USA",
+        openSpots: 0,
     },
     {
         img: 'https://github.com/Kushaalrajiv/AirBNB_ReactJS/blob/master/src/images/sing.png?raw=true',
@@ -37,7 +41,8 @@ export default [
         lesson:"Singing Class",
         reviews:4,
         price:'110',
-        country:"India"
+        country:"India",
+        openSpots: 3,
     },
     {
         img: 'https://github.com/Kushaalrajiv/AirBNB_ReactJS/blob/master/src/images/dance.png?raw=true',
@@ -45,7 +50,8 @@ export default [
         lesson:"Dance Class",
         reviews:11,
         price:'170',
-        country:"Austria"
+        country:"Austria",
+        openSpots: 5,
     },
     {
         img:'https://github.com/Kushaalrajiv/AirBNB_ReactJS/blob/master/src/images/swim.png?raw=true',
@@ -53,6 +59,7 @@ export default [
         lesson:"Swimming Class",
         reviews:18,
         price:'160',
-        country:"Netherlands"
+        country:"Netherlands",
+        openSpots: 0,
     }
 ]
