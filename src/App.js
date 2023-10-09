@@ -30,6 +30,7 @@ function App() {
       <Main />
       <div className='cards'>
         {dataelements}
+// long method
       {/* <Cards className="cards"
         img= {image1} 
         rating={data.rating}
