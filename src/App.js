@@ -3,32 +3,43 @@ import NavBar from './components/NavBar';
 import Main from './components/Main';
 import Cards from './components/Cards'
 import './App.css';
-import image1 from "./images/image1.png";
-import wedding from "./images/wedding.png";
-import mountain from "./images/mountain.png";
-import guitar from './images/guitar.png';
-import sing from './images/sing.png';
-import dance from './images/dance.png';
-import swim from './images/swim.png';
+// import image1 from "./images/image1.png";
+// import wedding from "./images/wedding.png";
+// import mountain from "./images/mountain.png";
+// import guitar from './images/guitar.png';
+// import sing from './images/sing.png';
+// import dance from './images/dance.png';
+// import swim from './images/swim.png';
+import data from './data';
 
 
 function App() {
+  const dataelements=data.map(item=> {
+    return <Cards className="cards"
+    img= {item.img} 
+    rating={item.rating}
+    lesson={item.lesson}
+    reviews={item.reviews}
+    price={item.price}
+    country={item.country}
+  />
+  })
   return (
     <div className="App">
       <NavBar />
       <Main />
       <div className='cards'>
-      <Cards className="cards"
-        img= {image1}
-        rating= '5.0'
-        lesson="Life lessons with Katie Zaferes"
-        reviews='6'
-        price='137'
-        country="Israel"
-        avail="SOLD OUT"
-      />
+        {dataelements}
+      {/* <Cards className="cards"
+        img= {image1} 
+        rating={data.rating}
+        lesson={data.lesson}
+        reviews={data.reviews}
+        price={data.price}
+        country={data.country}
+      /> */}
 
-      <Cards 
+      {/* <Cards 
         img= {mountain}
         rating= '4.5'
         lesson="Learn Wedding Photography"
@@ -76,7 +87,7 @@ function App() {
         reviews="18"
         price='160'
         country="Netherlands"
-      />
+      /> */}
       
       </div>
       
