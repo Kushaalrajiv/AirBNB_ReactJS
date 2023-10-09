@@ -22,7 +22,7 @@ function App() {
         img= {image1}
         rating= '5.0'
         lesson="Life lessons with Katie Zaferes"
-        reviews='6'
+        reviews={6}
         price='137'
         country="Israel"
         avail="SOLD OUT"
@@ -32,7 +32,7 @@ function App() {
         img= {mountain}
         rating= '4.5'
         lesson="Learn Wedding Photography"
-        reviews='2'
+        reviews={2}
         price='112'
         country="Bali"
       />
@@ -40,7 +40,7 @@ function App() {
         img= {wedding}
         rating= '4.8'
         lesson="Group Mountian Biking"
-        reviews='2'
+        reviews={2}
         price='149'
         country="Vietnam"
       />
@@ -48,7 +48,7 @@ function App() {
         img= {guitar}
         rating= '4.9'
         lesson="Guitar Lessons"
-        reviews="7"
+        reviews={7}
         price='130'
         country="USA"
       />
@@ -57,7 +57,7 @@ function App() {
         img= {sing}
         rating= '4.6'
         lesson="Singing Class"
-        reviews="4"
+        reviews={4}
         price='110'
         country="India"
       />
@@ -65,7 +65,7 @@ function App() {
         img= {dance}
         rating= '4.7'
         lesson="Dance Class"
-        reviews="11"
+        reviews={11}
         price='170'
         country="Austria"
       />
@@ -73,7 +73,7 @@ function App() {
         img= {swim}
         rating= '4.9'
         lesson="Swimming Class"
-        reviews="18"
+        reviews={18}
         price='160'
         country="Netherlands"
       />
