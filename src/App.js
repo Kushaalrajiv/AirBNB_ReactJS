@@ -16,12 +16,14 @@ import data from './data';
 function App() {
   const dataelements=data.map(item=> {
     return <Cards className="cards"
-    img= {item.img} 
-    rating={item.rating}
-    lesson={item.lesson}
-    reviews={item.reviews}
-    price={item.price}
-    country={item.country}
+    item={item}
+    // img= {item.img} 
+    // rating={item.rating}
+    // lesson={item.lesson}
+    // reviews={item.reviews}
+    // price={item.price}
+    // country={item.country}
+    // spots={item.openSpots}
   />
   })
   return (
@@ -30,7 +32,6 @@ function App() {
       <Main />
       <div className='cards'>
         {dataelements}
-// long method
       {/* <Cards className="cards"
         img= {image1} 
         rating={data.rating}
@@ -44,7 +45,7 @@ function App() {
         img= {mountain}
         rating= '4.5'
         lesson="Learn Wedding Photography"
-        reviews={2}
+        reviews='2'
         price='112'
         country="Bali"
       />
@@ -52,7 +53,7 @@ function App() {
         img= {wedding}
         rating= '4.8'
         lesson="Group Mountian Biking"
-        reviews={2}
+        reviews='2'
         price='149'
         country="Vietnam"
       />
@@ -60,7 +61,7 @@ function App() {
         img= {guitar}
         rating= '4.9'
         lesson="Guitar Lessons"
-        reviews={7}
+        reviews="7"
         price='130'
         country="USA"
       />
@@ -69,7 +70,7 @@ function App() {
         img= {sing}
         rating= '4.6'
         lesson="Singing Class"
-        reviews={4}
+        reviews="4"
         price='110'
         country="India"
       />
@@ -77,7 +78,7 @@ function App() {
         img= {dance}
         rating= '4.7'
         lesson="Dance Class"
-        reviews={11}
+        reviews="11"
         price='170'
         country="Austria"
       />
@@ -85,7 +86,7 @@ function App() {
         img= {swim}
         rating= '4.9'
         lesson="Swimming Class"
-        reviews={18}
+        reviews="18"
         price='160'
         country="Netherlands"
       /> */}
